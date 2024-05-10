@@ -25,7 +25,7 @@
     />
 
     <!-- CSS  -->
-    <link rel="stylesheet" href="..\CSS\logged_header.css" />
+    <link rel="stylesheet" href="../CSS/not_logged_in_header.css" />
   </head>
   <body>
     <header class="header">
@@ -49,48 +49,18 @@
             <a href="#">Trang chủ</a>
           </li>
           <li>
-            <a href="#">Phiếu đặt xe</a>
-          </li>
-          <li>
-            <a href="#">Hợp đồng</a>
-          </li>
-          <li>
-            <a href="#">Hóa đơn phạt</a>
-          </li>
-          <li>
-            <a href="#">Xe</a>
+            <a href="#">Tìm xe</a>
           </li>
         </ul>
-        <div class="header_menu_personal_option">
-          <a href="#">
-            <img
-              id="header_avatar"
-              src="../image/header_avatar.png"
-              alt="Avatar"
-            />
-          </a>
-          <a href="#">
-            <i
-              id="personal_icon_dropdown"
-              class="header_icon_dropdown fa-solid fa-chevron-down"
-              onclick="toggleDropdown()"
-            ></i>
-            <!-- Dropdown menu -->
-            <div class="personal_option_dropdown" id="header_dropdown">
-              <div class="personal_option">
-                <a href="#">Hồ sơ</a>
-              </div>
-              <div class="personal_option">
-                <a href="#">Đổi mật khẩu</a>
-              </div>
-              <div class="personal_option">
-                <a href="#">Đăng xuất</a>
-              </div>
-            </div>
-          </a>
-        </div>
+        <ul class="header_menu_log_option">
+          <li>
+            <a class="signin_button" href="#">Đăng ký</a>
+          </li>
+          <li>
+            <a class="login_button" href="#">Đăng nhập</a>
+          </li>
+        </ul>
       </div>
     </header>
-    <script src="../js/staff_header.js"></script>
   </body>
 </html>
