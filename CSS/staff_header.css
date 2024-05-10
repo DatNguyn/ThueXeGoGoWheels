@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #a0153e;
+  height: 88px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo_header {
+  width: 70px;
+}
+
+#header_avatar {
+  width: 44px;
+}
+
+.header_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.header_title_detail {
+  box-sizing: border-box;
+}
+
+.title_name {
+  font-size: 30px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+}
+
+#company_name {
+  color: #fdffa4;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+  flex-wrap: nowrap;
+}
+
+.header_menu_main_option {
+  box-sizing: border-box;
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px black solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header_menu_main_option a {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header_menu_personal_option {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#personal_icon_dropdown {
+  box-sizing: border-box;
+  margin-left: 7px;
+  padding: 5px;
+  color: white;
+}
+
+.personal_option_dropdown {
+  display: none;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px black solid;
+  width: 180px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+
+.personal_option {
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+.personal_option a {
+  color: black;
+}
+
+.personal_option:hover {
+  background-color: rgba(128, 128, 128, 0.3);
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Link Google Material -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Icon -->
+    <script
+      src="https://kit.fontawesome.com/b2fc9cc4db.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Reset CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="..\CSS\staff_header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_title">
+        <img
+          class="header_title_detail"
+          id="logo_header"
+          src="../image/logo_header.png"
+          alt="Logo"
+        />
+        <div class="header_title_detail">
+          <div class="title_name">GOGO WHEELS</div>
+          <div class="title_name" id="company_name">
+            CÔNG TY DỊCH VỤ CHO THUÊ XE
+          </div>
+        </div>
+      </div>
+      <div class="header_menu">
+        <ul class="header_menu_main_option">
+          <li>
+            <a href="#">Trang chủ</a>
+          </li>
+          <li>
+            <a href="#">Phiếu đặt xe</a>
+          </li>
+          <li>
+            <a href="#">Hợp đồng</a>
+          </li>
+          <li>
+            <a href="#">Hóa đơn phạt</a>
+          </li>
+          <li>
+            <a href="#">Xe</a>
+          </li>
+        </ul>
+        <div class="header_menu_personal_option">
+          <a href="#">
+            <img
+              id="header_avatar"
+              src="../image/header_avatar.png"
+              alt="Avatar"
+            />
+          </a>
+          <a href="#">
+            <i
+              id="personal_icon_dropdown"
+              class="header_icon_dropdown fa-solid fa-chevron-down"
+              onclick="toggleDropdown()"
+            ></i>
+            <!-- Dropdown menu -->
+            <div class="personal_option_dropdown" id="header_dropdown">
+              <div class="personal_option">
+                <a href="#">Hồ sơ</a>
+              </div>
+              <div class="personal_option">
+                <a href="#">Đổi mật khẩu</a>
+              </div>
+              <div class="personal_option">
+                <a href="#">Đăng xuất</a>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <script src="../js/staff_header.js"></script>
+  </body>
+</html>

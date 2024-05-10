@@ -1,0 +1,97 @@
+.footer {
+  box-sizing: border-box;
+  height: 493px;
+  width: 100%;
+  background-color: #a0153e;
+  padding: 48px 60px 48px 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+hr {
+  margin: 18px 0 18px 0;
+}
+
+.part1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact {
+  box-sizing: border-box;
+  padding-right: 128px;
+}
+
+.footer_title {
+  display: flex;
+  align-items: center;
+}
+
+.footer_title .logo_footer {
+  width: 65px;
+}
+
+.footer_title .title_name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.contact_info {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.documentation {
+  width: 47%;
+  display: grid;
+  grid-template-columns: 35% 35% 25%;
+  gap: 30px;
+}
+
+.documentation_box {
+  line-height: 24px;
+  position: relative;
+}
+
+.doc_title {
+  font-weight: bold;
+}
+
+.doc_url_list {
+  position: absolute;
+  top: 25%;
+}
+
+.doc_url {
+  margin: 12px 0px 12px 0px;
+}
+
+.doc_url a {
+  color: white;
+  text-decoration: none;
+}
+
+.part2,
+.part3 {
+  display: flex;
+  justify-content: flex-start;
+  height: 24px;
+}
+
+.company_title {
+  box-sizing: border-box;
+  padding-right: 128px;
+  width: 480px;
+  line-height: 24px;
+}
+
+.company_details {
+  width: 47%;
+  display: grid;
+  grid-template-columns: 35% 35% 52%;
+  gap: 30px;
+  line-height: 24px;
+}
