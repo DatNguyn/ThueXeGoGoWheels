@@ -1,0 +1,197 @@
+.selected_main_option {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+a.selected_main_option {
+  color: black;
+}
+
+.main {
+  box-sizing: border-box;
+  height: max-content;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 48px 40px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bolder;
+  padding-left: 5px;
+  margin-bottom: 24px;
+}
+
+.optional_list {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.optional {
+  padding: 5px 10px 20px;
+}
+
+.optional:hover {
+  cursor: pointer;
+}
+
+.opt1 {
+  color: black;
+  border-bottom: 1px black solid;
+  background-color: rgba(128, 128, 128, 0.05);
+  border-bottom: 4px #a0153e solid;
+}
+
+.opt2 {
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px black solid;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_pic {
+  width: 314px;
+}
+
+.notification {
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.order_car_button {
+  margin-top: 21px;
+  padding: 12px 20px;
+  background-color: #a0153e;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  line-height: 24px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.order_car_button:hover {
+  background-color: #a0153faf;
+}
+
+.content1 {
+  display: flex;
+}
+
+.content2 {
+  display: none;
+}
+
+.ordered_car {
+  padding-bottom: 12px;
+}
+
+.history_order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0px 31px;
+}
+
+.order_time {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.statistical a {
+  color: #a0153e;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.order_info {
+  box-sizing: border-box;
+  background-color: #c2f2c060;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.order_detail_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 37px;
+}
+
+.order_detail_1 .detail_time {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.order_detail_1 .status {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px;
+  color: #037001;
+  background-color: #21ce1e2d;
+  border-radius: 5px;
+}
+
+.order_detail_2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car_info {
+  display: flex;
+  gap: 55px;
+}
+
+.car_detail {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+#car_brand {
+  color: #fe9c0b;
+  margin-right: 12px;
+}
+
+#car_service {
+  color: #21971e;
+  margin-right: 12px;
+}
+
+.order_detail_3 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 17px;
+}
+
+.order_detail_3 button {
+  padding: 4px 30px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+#review_button {
+  background-color: #fe9c0b;
+}
+
+#review_button:hover {
+  background-color: #fe9d0b80;
+}
+
+#re_order_button {
+  background-color: #a0153e;
+}
+
+#re_order_button:hover {
+  background-color: #a0153f80;
+}
