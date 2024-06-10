@@ -1,0 +1,74 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    padding: 24px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+
+.div-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-banner-content {
+    position: absolute;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-banner-feature {
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.div-feature-list { 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.div-feature-list-item {
+    width: 354px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-feature-detail {
+    text-align: center;
+}
+
+.div-feature-detail-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.div-feature-detail-describe {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.div-service-banner {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    width: 100%;
+    border-radius: 8px;
+    padding: 24px 36px;
+}
+
+.div-service-banner-content {
+    box-sizing: border-box;
+    display: flex;
+}
